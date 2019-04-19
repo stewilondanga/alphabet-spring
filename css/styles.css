@@ -43,12 +43,12 @@ sub, sup {
   transform-style: preserve-3d;
 }
 
-/*sub {
+sub {
   transform: rotateX(0deg) rotateY(0deg) rotateZ(5deg);
   animation: wavy-sub 8s ease-in-out infinite alternate;
 }
 
-sup {
+/*sup {
   transform: rotateX(0deg) rotateY(0deg) rotateZ(-8deg);
   animation: wavy-sup 7.13s ease-in-out infinite alternate;
 }
