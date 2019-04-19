@@ -38,12 +38,12 @@ body {
   animation: wavy-main 9.23s ease-in-out infinite alternate;
 }
 
-/*sub, sup {
+sub, sup {
   display: inline-block;
   transform-style: preserve-3d;
 }
 
-sub {
+/*sub {
   transform: rotateX(0deg) rotateY(0deg) rotateZ(5deg);
   animation: wavy-sub 8s ease-in-out infinite alternate;
 }
