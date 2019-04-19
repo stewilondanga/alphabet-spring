@@ -22,8 +22,6 @@ body {
   height: 1.5em;
 }
 
-/*
-
 .container {
   min-height: 100vh;
   display: flex;
@@ -31,7 +29,7 @@ body {
   align-items: center;
 }
 
-.wavy {
+/*.wavy {
   position: relative;
   bottom: 0.3em;
   font-size: 21vw;
