@@ -73,12 +73,17 @@ sup {
   }
 }
 
-/*@keyframes wavy-sup {
-    from {transform: rotateX(0deg) rotateY(5deg) rotateZ(14deg);}
-    to {transform: rotateX(0deg) rotateY(-5deg) rotateZ(-8deg);}
+@keyframes wavy-sup {
+  from {
+    transform: rotateX(0deg) rotateY(5deg) rotateZ(14deg);
+  }
+
+  to {
+    transform: rotateX(0deg) rotateY(-5deg) rotateZ(-8deg);
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
