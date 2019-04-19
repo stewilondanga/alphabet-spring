@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,61 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+body {
+  margin: 0;
+  font-family: 'Bree Serif', serif;
+  background-color: #223344;
+  color: #ff4477;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wavy {
+  position: relative;
+  bottom: 0.3em;
+  font-size: 21vw;
+  transform: rotateX(20deg);
+  transform-style: preserve-3d;
+  animation: wavy-main 9.23s ease-in-out infinite alternate;
+}
+
+sub, sup {
+  display: inline-block;
+  transform-style: preserve-3d;
+}
+
+sub {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(5deg);
+  animation: wavy-sub 8s ease-in-out infinite alternate;
+}
+
+sup {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-8deg);
+  animation: wavy-sup 7.13s ease-in-out infinite alternate;
+}
+
+@keyframes wavy-main {
+    from {transform: rotateX(12deg) rotateY(0deg) rotateZ(0deg);}
+    to {transform: rotateX(0deg) rotateY(12deg) rotateZ(2deg);}
+}
+
+@keyframes wavy-sub {
+    from {transform: rotateX(0deg) rotateY(7deg) rotateZ(4deg);}
+    to {transform: rotateX(0deg) rotateY(-7deg) rotateZ(-4deg);}
+}
+
+@keyframes wavy-sup {
+    from {transform: rotateX(0deg) rotateY(5deg) rotateZ(14deg);}
+    to {transform: rotateX(0deg) rotateY(-5deg) rotateZ(-8deg);}
 }
 
 .containers {
